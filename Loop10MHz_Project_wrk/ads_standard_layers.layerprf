@@ -1,0 +1,20 @@
+<!DOCTYPE DisplayAttributes>
+<Lpp_Differences_List>
+    <LPP layer="bond" purpose="drawing" visible="0"/>
+    <LPP layer="bound" purpose="drawing" visible="0"/>
+    <LPP layer="cond2" purpose="drawing" visible="0"/>
+    <LPP layer="diel2" purpose="drawing" visible="0"/>
+    <LPP layer="diel" purpose="drawing" visible="0"/>
+    <LPP layer="hole" purpose="drawing" visible="0"/>
+    <LPP layer="hpeesof_region" protect="0" purpose="drawing"/>
+    <LPP layer="leads" purpose="drawing" visible="0"/>
+    <LPP layer="momentum_box" protect="0" purpose="drawing"/>
+    <LPP layer="momentum_ref_offset" protect="0" purpose="drawing"/>
+    <LPP layer="packages" purpose="drawing" visible="0"/>
+    <LPP layer="ports" purpose="drawing" visible="0"/>
+    <LPP layer="resi" purpose="drawing" visible="0"/>
+    <LPP layer="silk_screen2" protect="0" purpose="drawing"/>
+    <LPP layer="silk_screen" purpose="drawing" visible="0"/>
+    <LPP layer="symbol" purpose="drawing" visible="0"/>
+    <LPP layer="text" purpose="drawing" visible="0"/>
+</Lpp_Differences_List>

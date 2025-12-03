@@ -1,0 +1,48 @@
+Begin_Block  Header 
+  
+  Mode  ASCII 
+  File_Name  "C:/Users/andre/Desktop/ECE 262/proj/Loop10MHz_Project_wrk/simulation/Loop10MHz_Project_lib/loop_momentum_emCosim/layout/emModel_viz3D/EMDS4ADS.prf" 
+  Version  3.00 
+  
+End_Block  Header 
+
+Begin_Block  Data 
+  
+  Begin_Preferences 
+  
+  Begin_Material_Block 
+  Material cond     9.3333333333333335e-01      4.1568627450980394e-01      3.1372549019607843e-01  
+  Material __SubstrateLayer1     1.0000000000000000e+00      0.0000000000000000e+00      1.0000000000000000e+00  
+  End_Material_Block 
+  
+  Begin_Color_Block 
+  Object __SubstrateLayer1_1     1.0000000000000000e+00      0.0000000000000000e+00      1.0000000000000000e+00  
+  Object cond_2     9.3333333333333335e-01      4.1568627450980394e-01      3.1372549019607843e-01  
+  End_Color_Block 
+  
+  Begin_Visible_Block 
+  Object __SubstrateLayer1_1 1  0  80  
+  Object cond_2 1  1  50  
+  End_Visible_Block 
+  
+  Begin_Plane_Block 
+  Planes 0  
+  End_Plane_Block 
+  
+  Begin_Camera_Block 
+  Position     4.4256768798828125e+02     -5.7211132812500000e+02      7.1517144775390625e+02  
+  Target    -7.5000000000000000e+00      9.8500000000000000e+01      8.1199997663497925e-01  
+  Up    -3.8975504040718079e-01      5.3607875108718872e-01      7.4880605936050415e-01  
+      4.3129379272460938e+02      4.3129379272460938e+02  
+  End_Camera_Block 
+  
+  Begin_Background_Block 
+  Top_Color     0.0000000000000000e+00      0.0000000000000000e+00      0.0000000000000000e+00  
+  Bottom_Color     0.0000000000000000e+00      0.0000000000000000e+00      0.0000000000000000e+00  
+  Shadow 0  
+  End_Background_Block 
+  
+  End_Preferences 
+  
+End_Block  Data 
+

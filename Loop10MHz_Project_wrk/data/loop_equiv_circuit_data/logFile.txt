@@ -1,0 +1,16 @@
+
+hpeesofsim (*) 635.shp Oct 26 2025, MINT version 5
+    (64-bit windows built: Mon Oct 27, 2025 05:08:04 +0000)
+
+***** Simulation started at Tue Dec  2 22:14:19 2025
+      Running on host: "LAPTOP-2TBSNGQN"
+      In Directory: "C:\Users\andre\Desktop\ECE 262\proj\Loop10MHz_Project_wrk\data"
+      Process ID: 12404
+
+
+AC AC1[1] <Loop10MHz_Project_lib:loop_equiv_circuit:schematic>   freq=(1 MHz->40 MHz)
+
+
+Resource usage:
+  Total stopwatch time     =     0.62 seconds.
+

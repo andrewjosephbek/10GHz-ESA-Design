@@ -1,0 +1,59 @@
+; Top Design: "Loop10MHz_Project_lib:loop_circuit:schematic"
+; Netlisted using Hierarchy Policy: "Standard"
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="Loop10MHz_Project_lib:loop_circuit:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+; Library Name: Loop10MHz_Project_lib
+; Cell Name: loop_momentum_emCosim
+; View Name: emModel
+define loop_momentum_emCosim ( P1_NEG  P1_POS  P2_NEG  P2_POS  ref=0 ) 
+;parameters 
+; MomCmpt model has node 0 as implicit reference. Ref node will be ignored and assumed to be grounded!
+em_data_name="Loop10MHz_Project_lib:loop_momentum_emCosim:emModel"
+MomCmpt:em_data  S1 S2 \
+    name=em_data_name \
+    paramFile="" \
+    modelFile="C:/Users/andre/Desktop/ECE 262/proj/Loop10MHz_Project_wrk/Loop10MHz_Project_lib/loop_momentum_em%Cosim/em%Model/model.ndx" \
+    ModelReuse=1 \
+    ModelType="MOMMW" \
+    ExtrapolationMode="linear" \
+    EnforcePassivity=-1
+#uselib "ckt" , "tf"
+; Port S1
+Short:ShortSP1_1  P1_POS SP1  Mode=0 SaveCurrent=no
+Short:ShortSN1_1  P1_NEG SN1  Mode=0 SaveCurrent=no
+tf:TFSP1  SP1 S1 S1_common 0  T=1/2
+tf:TFSN1  S1_common S1 SN1 0  T=1/2
+R:RS1_common_bias  S1_common 0  R=1e+12
+; Port S2
+Short:ShortSP2_1  P2_POS SP2  Mode=0 SaveCurrent=no
+Short:ShortSN2_1  P2_NEG SN2  Mode=0 SaveCurrent=no
+tf:TFSP2  SP2 S2 S2_common 0  T=1/2
+tf:TFSN2  S2_common S2 SN2 0  T=1/2
+R:RS2_common_bias  S2_common 0  R=1e+12
+end loop_momentum_emCosim
+
+; Library Name: Loop10MHz_Project_lib
+; Cell Name: loop_momentum
+; View Name: layout
+define loop_momentum_in_loop_momentum_emCosim ( __emcosimNode1_P1_POS  __emcosimNode2_P1_POS  __emcosimNode3_P1_POS  __emcosimNode4_P1_POS ) 
+;parameters 
+loop_momentum_emCosim:__emcosimModel  __emcosimNode1_P1_POS __emcosimNode2_P1_POS __emcosimNode3_P1_POS __emcosimNode4_P1_POS __emcosimRef
+end loop_momentum_in_loop_momentum_emCosim
+
+loop_momentum_in_loop_momentum_emCosim:X1  IN 0 N__2 N__5 
+C:C1  N__2 N__5 C=342 pF 
+Port:TermG1  IN 0 Num=1 Z=50 Ohm Noise=yes 
+S_Param:SP1 CalcS=yes CalcY=no CalcZ=yes GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=no SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 SPSS_WSP=yes \
+SweepVar="freq" SweepPlan="SP1_stim" OutputPlan="SP1_Output" 
+
+SweepPlan: SP1_stim Start=9.75 MHz Stop=10.25 MHz Step=10 kHz 
+
+OutputPlan:SP1_Output \
+      Type="Output" \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2
+
+#load "python","LinearCollapse"
+Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2

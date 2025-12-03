@@ -1,0 +1,5 @@
+jobName=EmPpMsgs
+jobType=emprep
+designName=Loop10MHz_Project_lib:loop_momentum_emCosim:layout
+ruleFilePath=
+addInfo="EM preprocessor messages displayed as DRC errors"

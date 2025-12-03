@@ -1,0 +1,79 @@
+
+hpeesofsim (*) 635.shp Oct 26 2025, MINT version 5
+    (64-bit windows built: Mon Oct 27, 2025 05:08:04 +0000)
+
+***** Simulation started at Wed Dec  3 10:28:31 2025
+      Running on host: "LAPTOP-2TBSNGQN"
+      In Directory: "C:\Users\andre\Desktop\ECE 262\proj\Loop10MHz_Project_wrk\data"
+      Process ID: 29472
+
+
+1 spare nodes and 0 spare devices are removed.
+The details can be found in file 'C:\Users\andre\Desktop\ECE 262\proj\Loop10MHz_Project_wrk\data\loop_circuit_param_sweep_data\spare_removal.txt'.
+
+
+CT Sweep1[1] <Loop10MHz_Project_lib:loop_circuit_param_sweep:schematic>   swC=(250->500)
+
+SP Sweep1[1].SP1[1/20] <Loop10MHz_Project_lib:loop_circuit_param_sweep:schematic>  swC=250  freq=(5 MHz->15 MHz)
+
+
+SP Sweep1[1].SP1[2/20] <Loop10MHz_Project_lib:loop_circuit_param_sweep:schematic>  swC=263.158  freq=(5 MHz->15 MHz)
+
+
+SP Sweep1[1].SP1[3/20] <Loop10MHz_Project_lib:loop_circuit_param_sweep:schematic>  swC=276.316  freq=(5 MHz->15 MHz)
+
+
+SP Sweep1[1].SP1[4/20] <Loop10MHz_Project_lib:loop_circuit_param_sweep:schematic>  swC=289.474  freq=(5 MHz->15 MHz)
+
+
+SP Sweep1[1].SP1[5/20] <Loop10MHz_Project_lib:loop_circuit_param_sweep:schematic>  swC=302.632  freq=(5 MHz->15 MHz)
+
+
+SP Sweep1[1].SP1[6/20] <Loop10MHz_Project_lib:loop_circuit_param_sweep:schematic>  swC=315.789  freq=(5 MHz->15 MHz)
+
+
+SP Sweep1[1].SP1[7/20] <Loop10MHz_Project_lib:loop_circuit_param_sweep:schematic>  swC=328.947  freq=(5 MHz->15 MHz)
+
+
+SP Sweep1[1].SP1[8/20] <Loop10MHz_Project_lib:loop_circuit_param_sweep:schematic>  swC=342.105  freq=(5 MHz->15 MHz)
+
+
+SP Sweep1[1].SP1[9/20] <Loop10MHz_Project_lib:loop_circuit_param_sweep:schematic>  swC=355.263  freq=(5 MHz->15 MHz)
+
+
+SP Sweep1[1].SP1[10/20] <Loop10MHz_Project_lib:loop_circuit_param_sweep:schematic>  swC=368.421  freq=(5 MHz->15 MHz)
+
+
+SP Sweep1[1].SP1[11/20] <Loop10MHz_Project_lib:loop_circuit_param_sweep:schematic>  swC=381.579  freq=(5 MHz->15 MHz)
+
+
+SP Sweep1[1].SP1[12/20] <Loop10MHz_Project_lib:loop_circuit_param_sweep:schematic>  swC=394.737  freq=(5 MHz->15 MHz)
+
+
+SP Sweep1[1].SP1[13/20] <Loop10MHz_Project_lib:loop_circuit_param_sweep:schematic>  swC=407.895  freq=(5 MHz->15 MHz)
+
+
+SP Sweep1[1].SP1[14/20] <Loop10MHz_Project_lib:loop_circuit_param_sweep:schematic>  swC=421.053  freq=(5 MHz->15 MHz)
+
+
+SP Sweep1[1].SP1[15/20] <Loop10MHz_Project_lib:loop_circuit_param_sweep:schematic>  swC=434.211  freq=(5 MHz->15 MHz)
+
+
+SP Sweep1[1].SP1[16/20] <Loop10MHz_Project_lib:loop_circuit_param_sweep:schematic>  swC=447.368  freq=(5 MHz->15 MHz)
+
+
+SP Sweep1[1].SP1[17/20] <Loop10MHz_Project_lib:loop_circuit_param_sweep:schematic>  swC=460.526  freq=(5 MHz->15 MHz)
+
+
+SP Sweep1[1].SP1[18/20] <Loop10MHz_Project_lib:loop_circuit_param_sweep:schematic>  swC=473.684  freq=(5 MHz->15 MHz)
+
+
+SP Sweep1[1].SP1[19/20] <Loop10MHz_Project_lib:loop_circuit_param_sweep:schematic>  swC=486.842  freq=(5 MHz->15 MHz)
+
+
+SP Sweep1[1].SP1[20/20] <Loop10MHz_Project_lib:loop_circuit_param_sweep:schematic>  swC=500  freq=(5 MHz->15 MHz)
+
+
+Resource usage:
+  Total stopwatch time     =     2.02 seconds.
+
