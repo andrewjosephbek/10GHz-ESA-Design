@@ -1,7 +1,7 @@
 simulationMode 1;
 simulationTemperature 298.15;
-# simDir "C:\Users\andre\Desktop\ECE 262\proj\Loop10MHz_Project_wrk\simulation\Loop10MHz_Project_lib\loop_momentum_emCosim\layout\emModel_MoM";
-# simTag "M251203123614";
+# simDir "C:\Users\andre\Documents\GitHub\262-Project\Loop10MHz_Project_wrk\simulation\Loop10MHz_Project_lib\loop_momentum_emCosim\layout\emModel_MoM";
+# simTag "M251205111757";
 logFile "proj.log";
 processPriority Normal;
 mesh_reduction ON;
@@ -25,7 +25,7 @@ modelTypeStrip 3;
 modelTypeVia 3;
 SAVECURRENTSINFILE 1;
 SPARAM_OUTPUTFORMAT SMATRIXIO;
-DS_DIR "C:\Users\andre\Desktop\ECE 262\proj\Loop10MHz_Project_wrk\data";
+DS_DIR "C:\Users\andre\Documents\GitHub\262-Project\Loop10MHz_Project_wrk\data";
 REUSEPREVIOUSRESULTS OFF;
 INCLUDEPORTSOLVER ON;
 matrixSolver 0;

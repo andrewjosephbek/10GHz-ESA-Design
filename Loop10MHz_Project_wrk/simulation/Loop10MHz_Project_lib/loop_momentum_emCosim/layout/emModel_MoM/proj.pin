@@ -38,7 +38,7 @@
         <purpose>-1</purpose>
         <point>
           <x>0.007</x>
-          <y>0.2</y>
+          <y>0.19</y>
         </point>
       </shape>
     </layout>
@@ -52,7 +52,7 @@
         <purpose>-1</purpose>
         <point>
           <x>-0.007</x>
-          <y>0.2</y>
+          <y>0.19</y>
         </point>
       </shape>
     </layout>

@@ -1,0 +1,15 @@
+Momentum Server logfile: momServer.log
+
+EM Model generation from "Loop10MHz_Project_lib:loop_momentum_emCosim:emModel"
+  parameterNames = list("Substrate","MeshDensity")
+  parameterValues = list("definedInState","20")
+  topLevel design name = "Loop10MHz_Project_lib:loop_circuit:schematic"
+  instance name = "X1.__emcosimModel.em_data"
+  processID = "61702@127.0.0.1:hpeesofsim:_unique61698_1"
+  visible = TRUE
+Connected to external process by processID
+..handle = 14
+..pid = 61702@127.0.0.1:hpeesofsim:_unique61698_1
+..name = hpeesofsim
+..ERROR: Cannot simulate because there is already a simulation running.
+..sending DONE to parent

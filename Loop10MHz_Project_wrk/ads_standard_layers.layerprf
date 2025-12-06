@@ -13,8 +13,7 @@
     <LPP layer="packages" purpose="drawing" visible="0"/>
     <LPP layer="ports" purpose="drawing" visible="0"/>
     <LPP layer="resi" purpose="drawing" visible="0"/>
-    <LPP layer="silk_screen2" protect="0" purpose="drawing"/>
-    <LPP layer="silk_screen" purpose="drawing" visible="0"/>
+    <LPP layer="silk_screen2" protect="0" purpose="drawing" visible="1"/>
     <LPP layer="symbol" purpose="drawing" visible="0"/>
     <LPP layer="text" purpose="drawing" visible="0"/>
 </Lpp_Differences_List>

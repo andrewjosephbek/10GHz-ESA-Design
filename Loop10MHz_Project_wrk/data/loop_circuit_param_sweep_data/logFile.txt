@@ -2,14 +2,14 @@
 hpeesofsim (*) 635.shp Oct 26 2025, MINT version 5
     (64-bit windows built: Mon Oct 27, 2025 05:08:04 +0000)
 
-***** Simulation started at Wed Dec  3 10:28:31 2025
+***** Simulation started at Thu Dec  4 23:18:34 2025
       Running on host: "LAPTOP-2TBSNGQN"
-      In Directory: "C:\Users\andre\Desktop\ECE 262\proj\Loop10MHz_Project_wrk\data"
-      Process ID: 29472
+      In Directory: "C:\Users\andre\Documents\GitHub\262-Project\Loop10MHz_Project_wrk\data"
+      Process ID: 38180
 
 
 1 spare nodes and 0 spare devices are removed.
-The details can be found in file 'C:\Users\andre\Desktop\ECE 262\proj\Loop10MHz_Project_wrk\data\loop_circuit_param_sweep_data\spare_removal.txt'.
+The details can be found in file 'C:\Users\andre\Documents\GitHub\262-Project\Loop10MHz_Project_wrk\data\loop_circuit_param_sweep_data\spare_removal.txt'.
 
 
 CT Sweep1[1] <Loop10MHz_Project_lib:loop_circuit_param_sweep:schematic>   swC=(250->500)
@@ -75,5 +75,5 @@ SP Sweep1[1].SP1[20/20] <Loop10MHz_Project_lib:loop_circuit_param_sweep:schemati
 
 
 Resource usage:
-  Total stopwatch time     =     2.02 seconds.
+  Total stopwatch time     =     2.19 seconds.
 

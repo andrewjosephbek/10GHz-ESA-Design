@@ -1,4 +1,4 @@
-<ADSWorkspace Revision="4" Version="100">
+<ADSWorkspace Revision="5" Version="100">
     <Workspace Name="">
         <LibraryDefs Name="lib.defs" />
         <ConfigFile Name="dds.cfg" />
@@ -40,5 +40,25 @@
         <Cell Name="Loop10MHz_Project_lib:loop_momentum" />
         <Cell Name="Loop10MHz_Project_lib:loop_momentum_emCosim" />
         <Log Name="readegs.log" />
+        <Layer_Preference Name="ads_standard_layers.layerprf" />
+        <Data_Display Name="EM_Antenna.dds" />
+        <Data_Display Name="EM_FarFieldCut.dds" />
+        <Data_Display Name="loop_circuit.dds" />
+        <Data_Display Name="loop_circuit_param_sweep.dds" />
+        <Preferences Name="ads_rflib_lay.prf" />
+        <Dataset Name="EMAntenna.ds" />
+        <Dataset Name="emFar.ds" />
+        <Dataset Name="loop_circuit.ds" />
+        <Dataset Name="loop_circuit_param_sweep.ds" />
+        <Data_Files Name="EMAntenna.ds" />
+        <Data_Files Name="emFar.ds" />
+        <Data_Files Name="loop_circuit.ds" />
+        <Data_Files Name="loop_circuit_data\logFile.txt" />
+        <Data_Files Name="loop_circuit_data\spare_removal.txt" />
+        <Data_Files Name="loop_circuit_param_sweep.ds" />
+        <Data_Files Name="loop_circuit_param_sweep_data\logFile.txt" />
+        <Data_Files Name="loop_circuit_param_sweep_data\spare_removal.txt" />
+        <Cell Name="Loop10MHz_Project_lib:loop_circuit" />
+        <Cell Name="Loop10MHz_Project_lib:loop_circuit_param_sweep" />
     </Workspace>
 </ADSWorkspace>

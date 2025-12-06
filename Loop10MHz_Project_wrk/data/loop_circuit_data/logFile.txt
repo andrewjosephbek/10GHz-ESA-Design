@@ -2,27 +2,19 @@
 hpeesofsim (*) 635.shp Oct 26 2025, MINT version 5
     (64-bit windows built: Mon Oct 27, 2025 05:08:04 +0000)
 
-***** Simulation started at Wed Dec  3 12:37:27 2025
+***** Simulation started at Fri Dec  5 12:50:39 2025
       Running on host: "LAPTOP-2TBSNGQN"
-      In Directory: "C:\Users\andre\Desktop\ECE 262\proj\Loop10MHz_Project_wrk\data"
-      Process ID: 57556
+      In Directory: "C:\Users\andre\Documents\GitHub\262-Project\Loop10MHz_Project_wrk\data"
+      Process ID: 32288
 
 
 1 spare nodes and 0 spare devices are removed.
-The details can be found in file 'C:\Users\andre\Desktop\ECE 262\proj\Loop10MHz_Project_wrk\data\loop_circuit_data\spare_removal.txt'.
+The details can be found in file 'C:\Users\andre\Documents\GitHub\262-Project\Loop10MHz_Project_wrk\data\loop_circuit_data\spare_removal.txt'.
 
 
-SP SP1[1] <Loop10MHz_Project_lib:loop_circuit:schematic>   freq=(9.75 MHz->10.25 MHz)
-Warning detected by hpeesofsim during SP analysis `SP1'.
-    COMPONENT `X1.__emcosimModel.em_data':
-       Simulator uses frequency lower than frequency range of model. The S-parameters are extrapolated.
-
-Warning detected by hpeesofsim during SP analysis `SP1'.
-    COMPONENT `X1.__emcosimModel.em_data':
-       Simulator uses frequency higher than frequency range for model. The S-parameters are extrapolated.
-
+AC AC1[1] <Loop10MHz_Project_lib:loop_circuit:schematic>   freq=10 MHz
 
 
 Resource usage:
-  Total stopwatch time     =     0.81 seconds.
+  Total stopwatch time     =     1.47 seconds.
 

@@ -395,7 +395,7 @@
           <SpecificFrequency></SpecificFrequency>
           <SpecificFreqUnit>3</SpecificFreqUnit>
           <RefinementStrategy>0</RefinementStrategy>
-          <MaxRefineFrequency>10.01 MHz</MaxRefineFrequency>
+          <MaxRefineFrequency>10 MHz</MaxRefineFrequency>
           <RefineFreqUnit>3</RefineFreqUnit>
           <NbBondwireSegments>4</NbBondwireSegments>
           <NbConsecutivePassesRequired>1</NbConsecutivePassesRequired>
@@ -528,7 +528,7 @@
       <SaveFieldsType>2</SaveFieldsType>
     </FemSimReuseVisualization>
     <MomLayout version="1.0">
-      <workspaceText>C:\Users\andre\Desktop\ECE 262\proj\Loop10MHz_Project_wrk</workspaceText>
+      <workspaceText>C:\Users\andre\Documents\GitHub\262-Project\Loop10MHz_Project_wrk</workspaceText>
       <libraryText>Loop10MHz_Project_lib</libraryText>
       <cellText>loop_momentum_emCosim</cellText>
       <viewText>layout</viewText>
@@ -1102,15 +1102,15 @@
         <keyName>1</keyName>
         <MomSimFreqTableDef version="1.0">
           <numFreq>1</numFreq>
-          <typeFreq>1</typeFreq>
-          <startFreq>9.99</startFreq>
-          <stopFreq>10.01</stopFreq>
-          <ptsFreq>51</ptsFreq>
-          <stepFreq>4e-07</stepFreq>
+          <typeFreq>3</typeFreq>
+          <startFreq>10</startFreq>
+          <stopFreq>-1</stopFreq>
+          <ptsFreq> - </ptsFreq>
+          <stepFreq>-1</stepFreq>
           <enableFreq>True</enableFreq>
           <startFreqUnit>MHz</startFreqUnit>
-          <stopFreqUnit>MHz</stopFreqUnit>
-          <stepFreqUnit>GHz</stepFreqUnit>
+          <stopFreqUnit></stopFreqUnit>
+          <stepFreqUnit></stepFreqUnit>
           <swData>-1</swData>
           <trData>-1</trData>
           <tfData>-1</tfData>
@@ -1245,7 +1245,7 @@
                 <layerIdName>cond:drawing</layerIdName>
                 <shapeType>point</shapeType>
                 <points>
-                  <stdItem>0.007:0.2</stdItem>
+                  <stdItem>0.007:0.19</stdItem>
                 </points>
               </PinShapeDef>
             </shapes>
@@ -1264,7 +1264,7 @@
                 <layerIdName>cond:drawing</layerIdName>
                 <shapeType>point</shapeType>
                 <points>
-                  <stdItem>-0.007:0.2</stdItem>
+                  <stdItem>-0.007:0.19</stdItem>
                 </points>
               </PinShapeDef>
             </shapes>
@@ -1312,7 +1312,7 @@
     <SimSetupOverview version="2.0">
       <setupType>0</setupType>
       <simulator>0</simulator>
-      <overview>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">p, li { white-space: pre-wrap; }&lt;/style>&lt;/head>&lt;body style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;">&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">EM Simulator used with cosimulation:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Momentum simulation in microwave mode&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Layout:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Workspace: C:\Users\andre\Desktop\ECE 262\proj\Loop10MHz_Project_wrk&lt;br>Library: Loop10MHz_Project_lib&lt;br>Cell: loop_momentum&lt;br>View: layout&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Partitioning between EM and circuit:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Cosimulation preferred altough all items belong to the EM partition&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Substrate:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Substrate: RO3003_60mil (defined in library: Loop10MHz_Project_lib)&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Ports:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">2 ports defined&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Frequency plan:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Linear 9.99 MHz to 10.01 MHz (Npts: 51)&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Mom Simulation options:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Using preset Antenna&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">All simulation options are initialized and ready for Antenna simulation.&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">EM simulation resources:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Simulation on host:Local&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Cosimulation:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">EM Model representing the EM partition:&lt;br>    Loop10MHz_Project_lib:loop_momentum_emCosim:emModel&lt;/span>&lt;/p>&lt;/body>&lt;/html></overview>
+      <overview>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">p, li { white-space: pre-wrap; }&lt;/style>&lt;/head>&lt;body style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;">&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">EM Simulator used with cosimulation:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Momentum simulation in microwave mode&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Layout:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Workspace: C:\Users\andre\Documents\GitHub\262-Project\Loop10MHz_Project_wrk&lt;br>Library: Loop10MHz_Project_lib&lt;br>Cell: loop_momentum&lt;br>View: layout&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Partitioning between EM and circuit:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Cosimulation preferred altough all items belong to the EM partition&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Substrate:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Substrate: RO3003_60mil (defined in library: Loop10MHz_Project_lib)&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Ports:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">2 ports defined&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Frequency plan:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Single 10 MHz&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Mom Simulation options:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Using preset Antenna&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">All simulation options are initialized and ready for Antenna simulation.&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">EM simulation resources:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Simulation on host:Local&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Cosimulation:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">EM Model representing the EM partition:&lt;br>    Loop10MHz_Project_lib:loop_momentum_emCosim:emModel&lt;/span>&lt;/p>&lt;/body>&lt;/html></overview>
     </SimSetupOverview>
     <SimulationResources2 version="1.0">
       <resourceType>LocalRemote</resourceType>

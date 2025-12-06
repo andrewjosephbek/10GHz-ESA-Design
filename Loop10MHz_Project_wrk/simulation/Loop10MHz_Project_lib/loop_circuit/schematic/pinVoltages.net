@@ -1,0 +1,5 @@
+OutputPlan:CircuitExcitationOutputPlan \ 
+    Type="Output" \  
+    Scope="Global" \ 
+    EquationRegExpr="\.em_data_" \ 
+    DeviceVoltageRegExpr="\.em_data\."
