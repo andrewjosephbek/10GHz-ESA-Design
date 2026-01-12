@@ -1,9 +1,0 @@
-<?xml version="1.0" ?>
-<excitations domain="frequency">
-    <frequency value="10000000.000000">
-        <state name="AC1.AC">
-            <source type="voltage" srcreal="5.048978e-01" srcimag="-4.202894e-04" loadreal="0.000000e+00" loadimag="0.000000e+00" />
-            <source type="voltage" srcreal="4.754822e+00" srcimag="-8.317536e-01" loadreal="0.000000e+00" loadimag="0.000000e+00" />
-        </state>
-    </frequency>
-</excitations>
